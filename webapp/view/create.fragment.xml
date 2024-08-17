@@ -1,0 +1,29 @@
+<core:FragmentDefinition  xmlns:tnt="sap.tnt" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:f="sap.ui.layout.form" xmlns:l="sap.ui.layout" >
+<Dialog id="charac"  title="Create Users"  titleAlignment="Center"  contentHeight="45%" contentWidth="38%" >
+<VBox id="_IDGenVBox1" >
+<HBox id="_IDGenHBox1" >
+<Label id="_IDGenLabel1" text="User Name"  ></Label>
+<Input id="_IDGenInput1"  placeholder="***u" ></Input>
+</HBox>
+<HBox id="_IDGenHBox2" >
+<Label id="_IDGenLabel2" text="Email"  ></Label>
+<Input id="_IDGenInput2"  placeholder="***u" ></Input>
+</HBox>
+<HBox id="_IDGenHBox3" >
+<Label id="_IDGenLabel3" text="Contact"  ></Label>
+<Input id="_IDGenInput3"  placeholder="***u" ></Input>
+</HBox>
+<HBox id="_IDGenHBox4" >
+<Label id="_IDGenLabel4" text="Password"  ></Label>
+<Input id="_IDGenInput4"  placeholder="***u" ></Input>
+</HBox>
+</VBox>
+<footer>
+<Toolbar id="_IDGenToolbar1" >
+<ToolbarSpacer id="_IDGenToolbarSpacer1" ></ToolbarSpacer>
+<Button id="_IDGenButton1"  text="Submit" press="onSubmitUser" ></Button>
+<Button id="_IDGenButton2" text="Close" press="onCloseFrag"  ></Button>
+</Toolbar>
+</footer>
+</Dialog>
+</core:FragmentDefinition>

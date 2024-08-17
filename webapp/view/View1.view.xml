@@ -8,7 +8,7 @@
         id="page"
         title="{i18n>title}"
     >
-        <VBox id="_IDGenVBox1">
+        <!-- <VBox id="_IDGenVBox1">
             <HBox id="_IDGenHBox1">
                 <Label
                     id="_IDGenLabel1"
@@ -54,16 +54,17 @@
             <Button id="_IDGenButton2"   text="Reset"  press="onReset"  type="Transparent"  ></Button>
             
             </HBox>
-        </VBox>
+        </VBox> -->
         <Table
             id="_IDGenTable1"
             items="{/User_Data}"
             mode="SingleSelectLeft"
+            selectionChange="onChange"
         >
         <infoToolbar>
         <Toolbar id="_IDGenToolbar1" >
         <ToolbarSpacer id="_IDGenToolbarSpacer1" ></ToolbarSpacer>
-        <Button id="_IDGenButton3"  text="Update" type="Ghost"  press="onUpdate" ></Button>
+        <Button id="_IDGenButton3"  text="Create" type="Ghost"  press="onTriggerCreate" ></Button>
         <Button id="_IDGenButton4" text="Delete" type="Critical" press="onDelete"  ></Button>
         </Toolbar>
         </infoToolbar>
