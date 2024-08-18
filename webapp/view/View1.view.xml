@@ -58,7 +58,7 @@
         <Table
             id="_IDGenTable1"
             items="{/User_Data}"
-            mode="SingleSelectLeft"
+            mode="MultiSelect"
             selectionChange="onChange"
         >
         <infoToolbar>
